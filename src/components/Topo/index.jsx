@@ -3,9 +3,9 @@ import './Topo.css'
 export default function Topo() {
     return (
         <header>
-            <div className='anuncio'
-            >
-                <p>Tudo em 11x sem juros!!</p>
+            <div className='anuncio'>
+                <div className='anuncio-conteudo'><p>Tudo em 11x sem juros!!</p></div>
+                
             </div>
             <div className='topo'>
                 <picture>
