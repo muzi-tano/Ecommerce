@@ -1,15 +1,14 @@
 import './App.css'
-import Topo from'./components/Topo'
+import Header from './components/Header'
+
 function App() {
  
 
   return (
     <div>
-<header>
-  <Topo>
-    
-  </Topo>
-</header>
+      <header>
+        <Header/>
+      </header>
     </div>
   )
 }
