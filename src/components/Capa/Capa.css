@@ -1,0 +1,39 @@
+.secao_capa {
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center ;   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: var(--font-title);
+    padding: 0 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+.texto {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.texto h2 {
+    font-size: 34px;
+    color: var(--title);
+    font-weight: 600;
+    margin: 0;
+}
+
+.texto h1 {
+    font-size: 60px;
+    color: var(--title);
+    font-weight: 900;
+    margin: 0;
+
+}
