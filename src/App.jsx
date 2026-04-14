@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Capa from './components/Capa'
+import Produtos from './components/Produtos'
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <main>
         <Capa/>
       </main>
+      <section>
+        <Produtos/>
+      </section>
     </div>
   )
 }

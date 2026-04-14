@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <div className='anuncio'>
                 <div className='anuncio-conteudo'>
-                <p>Robux por 25% de desconto!!!</p>
+                <p>Robux e fruta baratas só aqui e na Blox Brasil!!</p>
                 </div>
             </div>
 
